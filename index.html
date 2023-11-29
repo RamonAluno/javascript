@@ -15,10 +15,6 @@
      </nav>
 </header>
 <section id="table">
-    nome
-    email
-    telefone
-    profissão
     <form action="">
 <div class="mb-3">
     <label for="nome">Nome</label>
@@ -33,21 +29,21 @@
     <input  id="telefone" type="telefone" placeholder="insira seu telefone" required>
 </div>
 <div class="mb-3">
-    <label for="profissão">Profissão</label>
-    <input  id="profissão" type="profissao" placeholder="insira sua profissão" required>
+    <label for="profissao">Profissão</label>
+    <input  id="profissao" type="profissao" placeholder="insira sua profissão" required>
 </div>
-        <button type="submit">Adcionar</button>
+        <button type="button" onclick="adicionar()">Adcionar</button>
         <button type="submit">iniciar grafico</button>
     </form>
     <hr>
     <table id="myTable" border="1">
-        <tr>
+        <tr id="0">
          <th>cod</th>
          <th>nome</th>
          <th>email</th>
          <th>telefone</th>
-         <th>profissao</th>
-         <th>acao</th>
+         <th>profissão</th>
+         <th>ação</th>
 
         </tr>
     </table>
